@@ -51,8 +51,6 @@ Four files matter (three from upstream + one new):
 
 The metric is still **val\_bpb** (validation bits per byte) — lower is better. Principlex adds a second signal: **commit\_bit** — 1 means factored, 0 means patchwork. Both are logged to `results.tsv`.
 
-<iframe src="https://specialtyconsultants.co/wp-content/uploads/2026/03/principlex.html" width="100%" height="1500px" frameborder="0"></iframe>
-
 ## Quick start (single GPU)
 
 **Requirements:** A single NVIDIA GPU (consumer desktop or datacenter), Python 3.10+, [uv](https://docs.astral.sh/uv/).
@@ -184,7 +182,7 @@ Runtime path: PyTorch SDPA attention + eager optimizer steps. No FA3, no torch.c
 - [miolini/autoresearch-macos](https://github.com/miolini/autoresearch-macos) — macOS fork
 - [trevin-creator/autoresearch-mlx](https://github.com/trevin-creator/autoresearch-mlx) — Apple Silicon MLX fork
 - [mutable-state-inc/autoresearch-at-home](https://github.com/mutable-state-inc/autoresearch-at-home) — SETI@home-style collaborative fork
-- Principlex #226 on karpathy/autoresearch — the original proposal by McClurkin
+- Principlex #226 on karpathy/autoresearch — the original proposal by McClurkin https://specialtyconsultants.co/autoresearch/
 
 ## License
 
