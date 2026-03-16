@@ -1,2 +1,0 @@
-# autoresearch-principlex
-Zurada experiment
